@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+}
+.menuText {
+    display: flex;
+    gap: 64px;
+}
+
+.menuText p {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 160px;
+}
+
+.menuText p:hover {
+    color: sandybrown;
+    cursor: pointer;
+}
+
+.adress {
+    background-color: #F1F5F8;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 244px;
+    display: flex;
+    align-items: center;
+}
+
+.adress p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #235275;
+    margin-left: 160px;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.inpSaerch {
+    width: 200px;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F1F5F8;
+    color: #235275;
+    padding-left: 15px;
+}
+
+.inpSaerch::placeholder {
+    color: #235275;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.searches h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.searches p {
+    color: #235275;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+aside {
+    margin-left: 160px;
+}
+
+.box {
+    margin-right: 160px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    gap: 40px;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+}
+
+.name {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #00000061;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 300px;
+    
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.btnAdd {
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #BA5D2C;
+    margin-left: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.btnAdd:hover {
+    background-color: sandybrown;
+    color: black;
+}
